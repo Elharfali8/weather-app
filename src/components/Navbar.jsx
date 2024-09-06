@@ -27,7 +27,7 @@ const Navbar = () => {
           </ul>
 
           <div className='grid place-items-center'>
-              <button type='button' className='p-1 bg-[#0B131E] transition-all ease-in-out duration-150 hover:bg-black rounded-lg' >
+              <button type='button' className='p-1 transition-all ease-in-out duration-150 border border-[#9399A2] rounded-lg hover:bg-[#9399A2] text-white' >
                   <CiDark size={27} />
               </button>
           </div>

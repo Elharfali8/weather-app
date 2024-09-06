@@ -1,1 +1,7 @@
 export {default as Navbar} from './Navbar'
+export {default as SearchInput} from './SearchInput'
+export {default as Forecast} from './Forecast'
+export {default as TodayForecast} from './TodayForecast'
+export {default as Title} from './Title'
+export {default as AirConditions} from './AirConditions'
+export {default as WeekForecast} from './WeekForecast'
