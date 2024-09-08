@@ -5,7 +5,7 @@ import { sevenForecast } from '../utils/data'
 const WeekForecast = () => {
   
   return (
-    <div className='secondary-color px-4 lg:px-8 py-6 rounded-xl'>
+    <div className='secondary-color px-4 lg:px-8 py-8 lg:py-10 rounded-xl'>
       <Title text='7-day forecast' />
       <div className='grid gap-y-2'>
         {sevenForecast.map((item) => {

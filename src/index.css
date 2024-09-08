@@ -81,3 +81,7 @@ body {
 .text {
   color: var(--gray-color);
 }
+
+.main-opacity {
+  background: rgba(32, 43, 59, 0.6);
+}

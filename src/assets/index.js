@@ -1,0 +1,5 @@
+export {default as sun} from './sun.png'
+export {default as cloud} from './cloud.png'
+export {default as cloudy} from './cloudy.png'
+export {default as raining} from './raining.png'
+export {default as snow} from './snow.png'
