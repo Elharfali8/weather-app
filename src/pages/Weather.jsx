@@ -55,7 +55,7 @@ const Weather = () => {
         <div className='h-full w-full grid gap-y-4  col-span-1 lg:col-span-3 xl:col-span-5'>
           <SearchInput value={value} handleValue={handleValue} submitBtn={submitBtn} />
           <Forecast data={weather} />
-          <TodayForecast />
+          <TodayForecast city={mainValue} />
           <AirConditions />
         </div>
         <div className='h-full w-full  col-span-1 xl:col-span-3 lg:pt-14'>
